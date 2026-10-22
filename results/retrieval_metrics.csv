@@ -1,0 +1,41 @@
+Set,Chunking,Scope,Method,Hit@1,Hit@3,Hit@5,Hit@10,MRR@10
+dev,Whole page,Within the filing,BM25 (keyword),0.054,0.161,0.286,0.464,0.152
+test,Whole page,Within the filing,BM25 (keyword),0.17,0.34,0.426,0.553,0.277
+dev,Whole page,Within the filing,TF-IDF,0.036,0.143,0.232,0.304,0.118
+test,Whole page,Within the filing,TF-IDF,0.106,0.191,0.287,0.468,0.19
+dev,Whole page,Within the filing,LSA (dense),0.125,0.196,0.286,0.375,0.18
+test,Whole page,Within the filing,LSA (dense),0.181,0.394,0.489,0.596,0.309
+dev,Whole page,Within the filing,Hybrid (BM25 + LSA),0.054,0.196,0.304,0.411,0.15
+test,Whole page,Within the filing,Hybrid (BM25 + LSA),0.202,0.383,0.457,0.606,0.314
+dev,Whole page,Within the filing,Finance-aware hybrid,0.411,0.589,0.643,0.768,0.517
+test,Whole page,Within the filing,Finance-aware hybrid,0.521,0.702,0.766,0.84,0.622
+dev,Whole page,Across all filings,BM25 (keyword),0.0,0.0,0.036,0.071,0.011
+test,Whole page,Across all filings,BM25 (keyword),0.096,0.138,0.17,0.213,0.13
+dev,Whole page,Across all filings,TF-IDF,0.0,0.0,0.0,0.036,0.004
+test,Whole page,Across all filings,TF-IDF,0.053,0.085,0.128,0.149,0.08
+dev,Whole page,Across all filings,LSA (dense),0.018,0.036,0.107,0.143,0.044
+test,Whole page,Across all filings,LSA (dense),0.074,0.181,0.213,0.255,0.134
+dev,Whole page,Across all filings,Hybrid (BM25 + LSA),0.018,0.018,0.054,0.089,0.032
+test,Whole page,Across all filings,Hybrid (BM25 + LSA),0.096,0.17,0.234,0.309,0.151
+dev,Whole page,Across all filings,Finance-aware hybrid,0.125,0.232,0.286,0.357,0.193
+test,Whole page,Across all filings,Finance-aware hybrid,0.138,0.277,0.362,0.457,0.231
+dev,200-word chunks,Within the filing,BM25 (keyword),0.018,0.161,0.286,0.393,0.131
+test,200-word chunks,Within the filing,BM25 (keyword),0.17,0.309,0.404,0.511,0.266
+dev,200-word chunks,Within the filing,TF-IDF,0.054,0.179,0.196,0.286,0.124
+test,200-word chunks,Within the filing,TF-IDF,0.117,0.202,0.266,0.404,0.187
+dev,200-word chunks,Within the filing,LSA (dense),0.089,0.232,0.321,0.446,0.185
+test,200-word chunks,Within the filing,LSA (dense),0.223,0.372,0.457,0.564,0.321
+dev,200-word chunks,Within the filing,Hybrid (BM25 + LSA),0.107,0.232,0.339,0.446,0.202
+test,200-word chunks,Within the filing,Hybrid (BM25 + LSA),0.245,0.362,0.457,0.585,0.335
+dev,200-word chunks,Within the filing,Finance-aware hybrid,0.375,0.571,0.696,0.768,0.507
+test,200-word chunks,Within the filing,Finance-aware hybrid,0.5,0.713,0.755,0.83,0.608
+dev,200-word chunks,Across all filings,BM25 (keyword),0.0,0.0,0.018,0.054,0.009
+test,200-word chunks,Across all filings,BM25 (keyword),0.096,0.138,0.17,0.202,0.125
+dev,200-word chunks,Across all filings,TF-IDF,0.0,0.0,0.0,0.036,0.004
+test,200-word chunks,Across all filings,TF-IDF,0.064,0.096,0.106,0.138,0.084
+dev,200-word chunks,Across all filings,LSA (dense),0.0,0.018,0.036,0.071,0.018
+test,200-word chunks,Across all filings,LSA (dense),0.096,0.106,0.128,0.17,0.11
+dev,200-word chunks,Across all filings,Hybrid (BM25 + LSA),0.018,0.036,0.071,0.125,0.042
+test,200-word chunks,Across all filings,Hybrid (BM25 + LSA),0.106,0.128,0.213,0.277,0.145
+dev,200-word chunks,Across all filings,Finance-aware hybrid,0.071,0.179,0.214,0.25,0.129
+test,200-word chunks,Across all filings,Finance-aware hybrid,0.096,0.16,0.234,0.287,0.152

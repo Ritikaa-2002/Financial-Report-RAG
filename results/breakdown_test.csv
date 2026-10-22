@@ -1,0 +1,11 @@
+Method,Group,Value,Questions,Hit@1,Hit@3,Hit@5,Hit@10,MRR@10
+Hybrid (BM25 + LSA),Question type,domain-relevant,25,0.2,0.24,0.24,0.32,0.232
+Hybrid (BM25 + LSA),Question type,metrics-generated,33,0.091,0.242,0.364,0.576,0.212
+Hybrid (BM25 + LSA),Question type,novel-generated,36,0.417,0.556,0.694,0.778,0.518
+Hybrid (BM25 + LSA),Pages needed,1 page,70,0.314,0.443,0.529,0.657,0.41
+Hybrid (BM25 + LSA),Pages needed,2+ pages,24,0.042,0.125,0.25,0.375,0.114
+Finance-aware hybrid,Question type,domain-relevant,25,0.24,0.44,0.48,0.64,0.353
+Finance-aware hybrid,Question type,metrics-generated,33,0.727,1.0,1.0,1.0,0.843
+Finance-aware hybrid,Question type,novel-generated,36,0.472,0.639,0.722,0.806,0.57
+Finance-aware hybrid,Pages needed,1 page,70,0.557,0.729,0.771,0.857,0.652
+Finance-aware hybrid,Pages needed,2+ pages,24,0.333,0.667,0.708,0.75,0.481
